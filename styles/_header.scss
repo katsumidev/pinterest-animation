@@ -1,0 +1,54 @@
+header {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+}
+
+nav {
+  display: flex;
+  align-self: flex-end;
+  flex-direction: row;
+  align-items: center;
+
+  ul {
+    margin: 0 10px;
+
+    li a {
+      text-decoration: none;
+      color: $black;
+      font-weight: 600;
+    }
+
+    li a:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.buttons {
+  margin-left: 40px;
+}
+
+button {
+  padding: 10px;
+  border-radius: 30px;
+  border: none;
+  text-align: center;
+  width: 70px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.login {
+  background-color: $red;
+  color: $white;
+  margin: 0 10px;
+}
+.signup {
+  background-color: $gray-light;
+  color: $black;
+}
